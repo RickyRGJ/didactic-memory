@@ -1,6 +1,8 @@
 import random
+#Lucky number generated randomly.
 lucky=random.randrange(0,9)
 guess_count=0
+#Guess limit (trials) is also a random number between 1 and 6
 guess_limit=random.randrange (1,6)
 while guess_count<guess_limit:
     guess=int(input("Guess a number_"))
